@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3F1F2;
+}
+
+.bg-custom {
+    background-color: #83969F;
+    color: #FFFFFF;
+}
+
+.bg-custom .navbar-nav .nav-link,
+.bg-custom .navbar-brand {
+    color: #FFFFFF !important;
+}
+
+.bg-custom .navbar-nav .nav-link:hover {
+    color: rgba(255, 0, 0, 0.42) !important;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid rgba(255, 0, 0, 0.42);
+}
+
+.button {
+    width: 142px;
+    height: 50px;
+    margin-left: 30px;
+
+    background-color: rgba(255, 0, 0, 0.42);
+    color: #ffffff;
+    border: 1px solid rgba(255, 0, 0, 0.32);
+    border-radius: 25px;
+}
+
+.button:hover {
+    background-color: #fe9494 !important;
+}
+
+.form-control{
+    width: 300px !important;
+}
+.searching {
+    height: 78px;
+    background: #F3F1F2;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.searching ul {
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 147px;
+    padding-top: 5px;
+   
+}
+
+.searching ul li:last-child{
+    color: #ff0000;
+}
+
+.searching ul li {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    margin-right: 30px;
+    
+    height: 70px;
+}
+
+.searching ul li:last-child{
+    color: #ff0000;
+}
+
+.searching ul li:hover{
+    border-bottom: 1px solid transparent;
+    border-color: rgba(255, 0, 0, 0.42);
+}
+
+.input-group {
+    width: 400px !important;
+    height: 40px;
+    align-self: center;
+}
+
+.form-inline{
+    margin-right: 15px;
+}
+
+.btn{
+    background-color: #b7575b !important;
+    color: #ffffff !important;
+    border-color: #b7575b !important;
+}
+
+.btn:hover{
+    color: #ffffff !important;
+    background-color: rgba(255, 0, 0, 0.42) !important;
+}
+
+.filters {
+    float:left;
+    width: 20%;
+    height: 800px;
+    
+    background: #F3F1F2;
+}
+
+.goods {
+    width: 80%;
+    height: 780px;
+    padding-left: 10px !important;
+    padding-top: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.card{
+    display: inline;
+    margin-right: 30px;
+}
+
+
